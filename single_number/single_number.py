@@ -29,6 +29,19 @@ def sort_arr(arr):
         arr[smallest_index], arr[cur_index] = arr[cur_index], arr[smallest_index]
     return arr
 
+    ## optimization
+    # counts = {}
+
+    # for num in nums:
+    #     if num not in counts:
+    #         coutns[num] = 1
+    #     else:
+    #         counts[num] += 1
+    # for k, v in counts.items():
+    #     if v == 1:
+    #         return k
+
+
 if __name__ == '__main__':
     # Use the main function to test your implementation
     arr = [1, 1, 4, 4, 5, 5, 3, 3, 9, 0, 0]

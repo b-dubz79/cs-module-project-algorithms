@@ -7,7 +7,8 @@ Item = namedtuple('Item', ['index', 'size', 'value'])
 
 def knapsack_solver(items, capacity):
     # Your code here
-
+    # output has a dict with a value and chosen field
+    # use capacity of 100 for practice
     pass
 
 
